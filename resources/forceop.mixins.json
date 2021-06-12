@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "package": "xyz.christallinqq.forceop.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [
+    "CC"
+  ],
+  "client": [],
+  "server": [],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "refmap": "forceop-refmap.json"
+}

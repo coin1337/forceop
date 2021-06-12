@@ -1,0 +1,14 @@
+{
+  "mappings": {
+    "xyz/christallinqq/forceop/mixin/CC": {
+      "sendChatMessage": "Lnet/minecraft/class_746;method_3142(Ljava/lang/String;)V"
+    }
+  },
+  "data": {
+    "named:intermediary": {
+      "xyz/christallinqq/forceop/mixin/CC": {
+        "sendChatMessage": "Lnet/minecraft/class_746;method_3142(Ljava/lang/String;)V"
+      }
+    }
+  }
+}

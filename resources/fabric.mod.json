@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "forceop",
+  "version": "1.0.0",
+  "name": "Force OP exploit",
+  "description": "Uses the minecraft packet handler to inject malicious code to overwrite the ops.json file",
+  "authors": [
+    "Crystalinqq"
+  ],
+  "contributors": [],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/forceop/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "xyz.christallinqq.forceop.ForceOP"
+    ],
+    "client": [],
+    "server": []
+  },
+  "mixins": [
+    "forceop.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.11.1"
+  }
+}
